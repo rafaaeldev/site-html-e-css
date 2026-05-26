@@ -1,0 +1,103 @@
+@charset "UTF-8";       
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    font-family: Lato, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 0px;
+    box-shadow: 30px 30px 30px black;
+}
+
+header h1 {
+    font-size: 70px;
+    margin: 0px 0px 30px;
+    padding: 10px 0px 0px 25px;
+}
+
+.sobremim {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    padding-bottom: 30px;
+    
+}
+nav > a {
+    color: white;
+    margin: 30px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: rgba(206, 206, 206, 0.26);
+
+}
+
+main {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+
+
+main img {
+    margin: 30px;
+    width: 300px;
+    border-radius: 50%;
+    border-style: solid;
+
+}
+
+section p {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.icone a img {
+    width: 20px;
+    height: auto;
+}
+
+
+.icone a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 36px 0px 0px;
+    font-size: 20px;
+
+}
+
+.icone a:hover {
+    text-decoration: underline;
+}
+
+.icone a:active {
+    color: rgb(186, 124, 245);
+}
+
+ul {
+    list-style: none;
+}
